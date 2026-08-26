@@ -307,21 +307,21 @@ Microsoft Excel
 
 Key Excel features used:
 
-| PivotTables| 
+PivotTables
 
-| PivotCharts| 
+PivotCharts
 
-| Slicers| 
+Slicers
 
-| Calculated metrics| 
+Calculated metrics
 
-| Excel Tables| 
+Excel Tables
 
-| Dashboard layout and formatting| 
+Dashboard layout and formatting 
 
 ---
 
-## Project Structure
+## Repository Structure
 ```
 fc-barcelona-performance-analytics/
 │
