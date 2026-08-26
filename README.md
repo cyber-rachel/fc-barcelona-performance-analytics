@@ -360,7 +360,6 @@ Performance Dashboard
 ```
 ---
 ## Project Purpose
-
 The purpose of this project is to demonstrate practical Excel data-analysis and dashboard-development skills using a real-world-style sports dataset.
 
 The dashboard focuses on turning raw match records into a clear visual report that allows users to explore performance from different perspectives rather than relying only on individual match statistics.
