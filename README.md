@@ -253,6 +253,6 @@ Data Analyst | Excel | SQL | Python | Power BI
 
 Connect
 
-LinkedIn: linkedin.com/in/rachel-konadu-gyamfi  
+LinkedIn: https://linkedin.com/in/rachel-konadu-gyamfi 
 
 GitHub: https://github.com/cyber-rachel
