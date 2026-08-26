@@ -1,348 +1,221 @@
-# ⚽ FC Barcelona Performance Analytics
+# FC Barcelona Performance Analytics
 
-An Excel-based football analytics project analysing FC Barcelona match performance across the 2020–2025 period.
+**Excel Football Analytics & Interactive Dashboard**
 
-The project transforms match-level data into an interactive dashboard covering results, goals, possession, home and away performance, competition performance, trends, and selected match factors.
+An Excel-based football analytics project analyzing FC Barcelona match performance across the 2020–2025 period.
+
+The project transforms match-level data into an interactive dashboard covering performance KPIs, match outcomes, goals, competition analysis, home and away comparisons, trends, and selected match factors.
 
 ---
 
-# Dashboard Preview
+## Dashboard Preview
+
 ![FC Barcelona Performance Dashboard](dashboard.png)
 
-Interactive Excel dashboard developed from the match-level dataset.
+*Interactive FC Barcelona performance dashboard developed in Microsoft Excel.*
 
 ---
 
-# 📖 Project Overview
+## Project Overview
 
-This project was built in Microsoft Excel to demonstrate how football match data can be transformed into a structured analytical report and interactive dashboard.
+This project demonstrates how raw football match data can be transformed into a structured analytical report using Microsoft Excel.
 
---- 
+The workbook combines:
 
-# The workbook combines:
+- Data preparation and organization
+- KPI calculations
+- PivotTables
+- PivotCharts
+- Interactive slicers
+- Performance analysis
+- Trend analysis
+- Comparative analysis
+- Dashboard design
 
-* Data preparation
+The dashboard allows users to explore the data through filters for:
 
-* KPI calculations
-
-* PivotTables
-
-* PivotCharts
-
-* Interactive slicers
-
-* Performance analysis
-
-* Trend analysis
-
-* Comparative analysis
-
----
-
-# Dashboard design
-
-The dashboard can be filtered by:
-
-* Season
-
-* Competition
-
-* Result
-
-* Opponent
+- **Season**
+- **Competition**
+- **Result**
+- **Opponent**
 
 ---
 
-# Key Areas of Analysis
+## Key Performance Areas
 
-# Match Performance
+### 01. Match Performance
 
-The dashboard summarizes overall match outcomes through indicators such as:
+The dashboard summarizes overall performance using indicators such as:
 
-* Matches played
+- Matches played
+- Wins
+- Draws
+- Losses
+- Goals scored
+- Goals conceded
+- Goal difference
+- Win rate
+- Average possession
 
-* Wins
-
-* Draws
-
-* Losses
-
-* Goals scored
-
-* Goals conceded
-
-* Goal difference
-
-* Win rate
-
---- 
-
-# Goals Analysis
+### 02. Goals Analysis
 
 The project examines attacking and defensive output through:
 
-* Average goals scored per match
+- Average goals scored per match
+- Average goals conceded per match
+- Clean sheets
+- Matches scoring 3+ goals
+- Matches conceding 3+ goals
+- Comeback wins
+- Goal distribution per match
 
-* Average goals conceded per match
-
-* Clean sheets
-
-* Matches scoring 3+ goals
-
-* Matches conceding 3+ goals
-
-* Comeback wins
-
-* Goal distribution per match
-
---- 
-
-# Competition Performance
+### 03. Competition Analysis
 
 Goals scored and conceded are compared across:
 
-* La Liga
+- La Liga
+- Copa del Rey
+- Champions League
 
-* Copa del Rey
+### 04. Home vs Away Performance
 
-* Champions League
+Home and away matches are compared using:
 
----  
+- Matches played
+- Wins
+- Goals scored
+- Goals conceded
 
-# Home vs Away Performance
+### 05. Performance Trends
 
-The dashboard compares home and away matches based on:
+The dashboard includes trend analysis for:
 
-* Matches played
+- Win rate over time
+- Monthly points performance
+- Goal performance across competitions
 
-* Wins
+### 06. Weather Impact
 
-* Goals scored
+An exploratory analysis compares average goals scored and conceded under recorded weather conditions:
 
-* Goals conceded
+- Cold
+- Rainy
+- Sunny
+- Windy
 
----  
-
-# Performance Trends
-
-* The project includes trend analysis for:
-
-* Win rate over time
-
-* Monthly points performance
-
-* Goal performance across competitions
-
---- 
-
-# Weather Impact
-
-The dashboard provides an exploratory comparison of average goals scored and conceded under different recorded weather conditions:
-
-* Cold
-
-* Rainy
-  
-* Sunny
-
-* Windy
-
-This analysis is presented as an exploratory relationship rather than a causal conclusion.
-
---- 
-
-# Dataset
-
-The dataset contains 200 FC Barcelona match records covering the 2020–2025 period.
-
-The match-level data includes performance, opponent, competition, and contextual variables.
-
---- 
-
-# Main Variables
-
-VariableDescription
-
-Date
-
-Match date
-
-Opponent
-
-Opposing team
-
-Home/Away
-
-Match location
-
-Competition
-
-Competition played
-
-Goals Scored
-
-Barcelona goals scored
-
-Goals Conceded
-
-Goals conceded
-
-Possession (%)
-
-Possession percentage
-
-Shots on Target
-
-Shots on target
-
-xG
-
-Expected goals
-
-Pass Accuracy (%)
-
-Passing accuracy
-
-Tackles Won
-
-Tackles won
-
-Key Passes
-
-Key passes
-
-Result
-
-Win, Draw, or Loss
-
-Injury Impact (%)
-
-Recorded injury impact
-
-Rest Days Before Match
-
-Rest period before the match
-
-Opponent Strength (ELO Rating)
-
-Opponent strength measure
-
-Weather Conditions
-
-Recorded weather condition
-
-Managerial Change
-
-Recorded managerial change indicator
-
-Goal Difference
-
-Goals scored minus goals conceded
-
-Total Goals
-
-Combined goals scored and conceded
+This section is intended to show patterns in the available data and does not imply that weather causes the observed performance differences.
 
 ---
 
-## Dashboard Questions
+## Interactive Dashboard
 
-The analysis is designed to answer questions such as:
+The dashboard includes slicers that allow users to change the analysis dynamically.
 
-* How does FC Barcelona's performance vary across seasons?
+### Available Filters
 
-* How do home and away results compare?
+| Filter | Purpose |
+|---|---|
+| **Season** | Compare performance across seasons |
+| **Competition** | Focus on a specific competition |
+| **Result** | Analyze wins, draws, or losses |
+| **Opponent** | Examine performance against selected opponents |
 
-* How does goal production differ across competitions?
+These filters allow users to move from an overall performance view to a more specific analysis.
 
-* How frequently does Barcelona score three or more goals?
+---
 
-* How often does Barcelona keep a clean sheet?
+## Dataset
 
-* How does win rate vary throughout the year?
+The dataset contains **200 FC Barcelona match records** covering the 2020–2025 period.
 
-* How does monthly points performance change over time?
+The match-level data combines football performance metrics with contextual information.
 
-* How do goals scored and conceded compare under different weather conditions?
+### Main Variables
 
-* How does performance vary by opponent?
+| Variable | Description |
+|---|---|
+| Date | Match date |
+| Opponent | Opposing team |
+| Home/Away | Match location |
+| Competition | Competition played |
+| Goals Scored | Barcelona goals scored |
+| Goals Conceded | Goals conceded |
+| Possession (%) | Possession percentage |
+| Shots on Target | Shots on target |
+| xG | Expected goals |
+| Pass Accuracy (%) | Passing accuracy |
+| Tackles Won | Tackles won |
+| Key Passes | Key passes |
+| Result | Win, Draw, or Loss |
+| Injury Impact (%) | Recorded injury impact |
+| Rest Days Before Match | Rest period before the match |
+| Opponent Strength (ELO Rating) | Opponent strength measure |
+| Weather Conditions | Recorded weather condition |
+| Managerial Change | Recorded managerial change indicator |
+| Goal Difference | Goals scored minus goals conceded |
+| Total Goals | Combined goals scored and conceded |
 
-* How do match outcomes differ across competitions and seasons?
-  
+---
+
+## Analytical Questions
+
+The dashboard was designed to explore questions such as:
+
+1. How does FC Barcelona's performance vary across seasons?
+2. How does home performance compare with away performance?
+3. How does goal production differ across competitions?
+4. How frequently does Barcelona score three or more goals?
+5. How often does Barcelona keep a clean sheet?
+6. How does win rate vary throughout the year?
+7. How does monthly points performance change over time?
+8. How do goals scored and conceded compare under different weather conditions?
+9. How does performance vary by opponent?
+10. How do match outcomes differ across competitions and seasons?
+
 ---
 
 ## Excel Skills Demonstrated
 
-* Data cleaning and preparation
+### Data & Analysis
 
-* Data organization
+- Data cleaning and preparation
+- Data organization
+- KPI development
+- Excel formulas
+- Performance analysis
+- Trend analysis
+- Comparative analysis
 
-* KPI development
+### Excel Reporting
 
-* Excel formulas
-
-* PivotTables
-
-* PivotCharts
-
-* Slicers
-
-* Trend analysis
-
-* Comparative analysis
-
-* Sports performance analysis
-
-* Interactive dashboard development
-
-* Data visualization
-
-* Dashboard design
+- PivotTables
+- PivotCharts
+- Slicers
+- Interactive reporting
+- Dashboard development
+- Data visualization
+- Report layout and formatting
 
 ---
 
 ## Tools
 
-Microsoft Excel
+**Microsoft Excel**
 
-Key Excel features used:
+Key features used:
 
-* PivotTables
-
-* PivotCharts
-
-* Slicers
-
-* Calculated metrics
-
-* Excel Tables
-
-* Dashboard layout and formatting 
+- Excel Tables
+- Excel formulas
+- PivotTables
+- PivotCharts
+- Slicers
+- KPI calculations
+- Dashboard design
 
 ---
 
-## Repository Structure
-```
-fc-barcelona-performance-analytics/
-│
-├── README.md
-├── dashboard.png
-└── FC_Barcelona_Performance_Analytics.xlsx
-```
+## Analytical Workflow
 
----
-
-## Files
-
-* README.md: Project documentation and dashboard description.
-
-* dashboard.png: Preview image of the completed FC Barcelona Performance Dashboard.
-
-* FC_Barcelona_Performance_Analytics.xlsx: Excel workbook containing the source data, calculations, PivotTables, PivotCharts, filters, and dashboard.
-
----
-
-Analytical Workflow
 ```text
 Match-Level Data
        ↓
@@ -354,10 +227,11 @@ PivotTables
        ↓
 PivotCharts
        ↓
-Interactive Filters
+Interactive Slicers
        ↓
 Performance Dashboard
 ```
+
 ---
 
 # Project Purpose
