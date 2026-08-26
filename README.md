@@ -334,14 +334,11 @@ fc-barcelona-performance-analytics/
 
 ## Files
 
-README.md
-Project documentation and dashboard description.
+- README.md: Project documentation and dashboard description.
 
-dashboard.png
-Preview image of the completed FC Barcelona Performance Dashboard.
+- dashboard.png: Preview image of the completed FC Barcelona Performance Dashboard.
 
-FC_Barcelona_Performance_Analytics.xlsx
-Excel workbook containing the source data, calculations, PivotTables, PivotCharts, filters, and dashboard.
+-FC_Barcelona_Performance_Analytics.xlsx: Excel workbook containing the source data, calculations, PivotTables, PivotCharts, filters, and dashboard.
 
 ---
 
@@ -370,11 +367,15 @@ The dashboard focuses on turning raw match records into a clear visual report th
 
 The same analytical approach can be adapted to business, sales, marketing, finance, and operational datasets.
 
+---
+
 Author
 
 Rachel Konadu Gyamfi
 
 Data Analyst | Excel | SQL | Python | Power BI
+
+---
 
 Connect
 
