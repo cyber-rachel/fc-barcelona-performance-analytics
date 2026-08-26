@@ -307,17 +307,17 @@ Microsoft Excel
 
 Key Excel features used:
 
-PivotTables
+- PivotTables
 
-PivotCharts
+- PivotCharts
 
-Slicers
+- Slicers
 
-Calculated metrics
+- Calculated metrics
 
-Excel Tables
+- Excel Tables
 
-Dashboard layout and formatting 
+- Dashboard layout and formatting 
 
 ---
 
@@ -338,7 +338,7 @@ fc-barcelona-performance-analytics/
 
 - dashboard.png: Preview image of the completed FC Barcelona Performance Dashboard.
 
--FC_Barcelona_Performance_Analytics.xlsx: Excel workbook containing the source data, calculations, PivotTables, PivotCharts, filters, and dashboard.
+- FC_Barcelona_Performance_Analytics.xlsx: Excel workbook containing the source data, calculations, PivotTables, PivotCharts, filters, and dashboard.
 
 ---
 
